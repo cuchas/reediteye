@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ReeditDroid</string>
+    <string name="some_crazy_dude_">Some crazy dude did some crazy stuff last night...</string>
+    <string name="ten_hr_ago">10 hr atrás</string>
+    <string name="number_comments">482 comentário(s)</string>
+    <string name="comments_format">%d comentário(s)</string>
+    <string name="network_required">Sem internet</string>
+    <string name="internet_access_is_required_">
+        A internet deve estar ativa para mostrar as novidades pra você!</string>
+    <string name="enable_internet">Ativar Internet</string>
+    <string name="cuchas">cuchas</string>
+    <string name="tree_points">3 pontos</string>
+    <string name="days_passed_format">%s dia(s) atrás</string>
+    <string name="hours_passed_format">%s hora(s) atrás</string>
+    <string name="minutes_passed_format">%s minuto(s) atrás</string>
+    <string name="share">Compartilhar</string>
+    <string name="posted_title" translatable="false">posted_title</string>
+    <string name="posted_image" translatable="false">posted_image</string>
+    <string name="browse">Browse</string>
+    <string name="fail_getting_news">Sem novidades</string>
+    <string name="something_went_wrong_getting_news_for_">
+        Infelizmente a busca por novidades falhou, você pode tentar novamente agora ou mais tarde.
+        Eu tentaria agora e você? :)</string>
+    <string name="try_again">Tentar novamente</string>
+</resources>

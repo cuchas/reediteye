@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">ReeditEye</string>
+    <string name="some_crazy_dude_">Some crazy dude did some crazy stuff last night...</string>
+    <string name="ten_hr_ago">10 hr ago</string>
+    <string name="number_comments">482 comments</string>
+    <string name="comments_format">%d comments</string>
+    <string name="network_required">Network required</string>
+    <string name="internet_access_is_required_">Internet needs to be active inorder to get new posts!</string>
+    <string name="enable_internet">Enable Internet</string>
+    <string name="cuchas">cuchas</string>
+    <string name="tree_points">3 points</string>
+    <string name="days_passed_format">%s day(s) ago</string>
+    <string name="hours_passed_format">%s hour(s) ago</string>
+    <string name="minutes_passed_format">%s minute(s) ago</string>
+    <string name="share">Share</string>
+    <string name="posted_title" translatable="false">posted_title</string>
+    <string name="posted_image" translatable="false">posted_image</string>
+    <string name="browse">Browse</string>
+    <string name="fail_getting_news">Fail Getting Droid News</string>
+    <string name="something_went_wrong_getting_news_for_">Something went wrong when gettings news for you, please try again!</string>
+    <string name="try_again">Try again</string>
 </resources>

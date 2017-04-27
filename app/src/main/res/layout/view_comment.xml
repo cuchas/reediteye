@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/grid"
+    android:paddingStart="@dimen/grid"
+    android:paddingRight="@dimen/grid"
+    android:paddingEnd="@dimen/grid"
+    android:layout_marginTop="@dimen/grid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/cuchas"
+            android:id="@+id/text_author_details"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_marginEnd="@dimen/grid"
+            style="@style/AppTheme.TextAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/tree_points"
+            android:id="@+id/text_points"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_marginEnd="@dimen/grid"
+            style="@style/AppTheme.TextAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_date_comment"
+            android:text="@string/ten_hr_ago"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_marginEnd="@dimen/grid"
+            style="@style/AppTheme.TextAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/text_grid"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:text="@string/some_crazy_dude_"
+        android:id="@+id/text_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@color/gray"
+        android:layout_marginTop="@dimen/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+
+</LinearLayout>
