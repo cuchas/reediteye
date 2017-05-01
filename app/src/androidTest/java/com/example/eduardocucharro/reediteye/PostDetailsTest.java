@@ -51,12 +51,12 @@ public class PostDetailsTest {
     };
 
     @Test
-    public void clickOnShare_startsSendIntent() {
+    public void clickOnShare_startsChooser() {
         ViewInteraction interaction = onView(
                 allOf(withId(R.id.menu_share), withContentDescription(R.string.share), isDisplayed()));
 
         interaction.perform(click());
 
-        intended(hasAction(Intent.ACTION_SEND));
+        intended(hasAction(Intent.ACTION_CHOOSER));
     }
 }
